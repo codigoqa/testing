@@ -1,0 +1,46 @@
+Latest Selenium Interview Questions:
+1.	Difference between get and navigate method in Selenium?
+    driver.get() : It's used to go to the particular website , But it doesn't maintain the browser History and cookies so , 
+    we can't use forward and backward button , if we click on that , page will not get schedule
+    driver.navigate() : it's used to go to the particular website , but it maintains the browser history and cookies, 
+    so we can use forward and backward button to navigate between the pages during the coding of Testcase
+    
+2.	Difference between quit and close methods in Webdiver?
+    close() closes only the current window on which Selenium is running automated tests. The WebDriver session, however, remains active.
+    On the other hand, the driver. quit() method closes all browser windows and ends the WebDriver session
+    
+3.	What is implicit wait?
+    
+4.	Difference between implicit and explicit wait?
+  
+5.	In how many ways we can handle frames in the application using webdriver methods?
+
+6.	Code to handle 3rd child window?
+
+7.	How to handle https certifications?
+8.	Different type of locators present in webdriver?
+9.	Write Syntax for xpath and css if id and tag  are given
+10.	How to use Contains regular expression to xpath?
+11.	How to use regular expression to CSS?
+12.	What is the class available in selenium to handle drop downs?
+13.	What is the method to check if checkbox is selected ?
+14.	How to validate if element is visible or hidden in webpages?
+15.	How to get the count of similar objects list in the web page?
+16.	Importance of desired capabilites Mechanism
+17.	How to enter the text in capslock?
+18.	How to mouse over on the web element on page?
+19.	Methods to handle Java Alert?
+20.	How to get links count in the page?
+21.	How to validate if we are navigated to child window successfully?
+22.	Difference between relative and absolute xpath ?
+23.	Write down the sample xpath syntax to handle parent from child object?
+24.	What driver is must to run tests in firefox driver?
+25.	What driver is must to run tests in Chrome driver?
+26.	How do you set driver in firefox and chrome drivers through script?
+27.	Difference between findElement and findELements
+28.	List out any 2 methods available in explicit wait
+29.	How to take screenshots with selenium webdriver
+30.	How to hit enter from webdriver commands
+
+
+
